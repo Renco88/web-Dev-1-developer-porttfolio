@@ -1,0 +1,81 @@
+.header {
+    background-image: url("../images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position:;
+    height: 592px;
+
+  
+
+}
+.secondary-bg{
+   background-color:  #FFF8F3;
+}
+.btm-primary {
+    border-radius: 5px;
+    background: #FD6E0A;
+    color:white;
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0%;
+}
+
+nav {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0 200px;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav-title {
+    font-weight: 800px;
+    font-size: 30px;
+}
+
+/* banner style */
+.banner{
+    padding:30px 30px 0px 150px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     position: bottom ;
+}
+.banner-content{
+    max-width: 800px;
+
+}
+.banner-greeting{
+    font-size: 25px;
+    font-weight: 600;
+
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 45px;
+}
+
+
+.banner-profile-pic{
+    width: 300px;
+}
+
