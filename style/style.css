@@ -1,18 +1,20 @@
 .header {
     background-image: url("../images/header_bg.png");
     background-repeat: no-repeat;
-    background-position:bottom right;
+    background-position: bottom right;
     height: 551px;
     background-size: 40%;
 
 }
-.secondary-bg{
-   background-color:  #FFF8F3;
+
+.secondary-bg {
+    background-color: #FFF8F3;
 }
+
 .btm-primary {
     border-radius: 5px;
     background: #FD6E0A;
-    color:white;
+    color: white;
     border: none;
     font-size: 20px;
     font-weight: 700;
@@ -52,33 +54,71 @@ nav li a {
 }
 
 /* banner style */
-.banner{
-    padding:30px 30px 0px 150px;
-     display: flex;
-     align-items: center;
-     justify-content: space-between;
-     position: bottom ;
+.banner {
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: bottom;
 }
-.banner-content{
+
+.banner-content {
     max-width: 800px;
 
 }
-.banner-greeting{
+
+.banner-greeting {
     font-size: 25px;
     font-weight: 600;
 
 }
-.banner-title{
+
+.banner-title {
     font-weight: bold;
     font-size: 45px;
 }
 
 
-.banner-profile-pic{
+.banner-profile-pic {
     width: 400px;
-    position:relative;
+    position: relative;
     bottom: 38px;
-    
-   
 }
 
+/* main section */
+main section {
+    margin-top: 130px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* About section styles */
+
+.about {
+    border-radius: 10px;
+    background: rgb(255, 248, 243);
+    padding: 100px;
+    /* margin: 100px ; */
+
+}
+
+.about-content-continer {
+    box-sizing: border-box;
+    border: 1px solid rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    text-align: center;
+    margin-left: 10px;
+}
+
+.about-info-containar {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.about-info {
+    text-align: center;
+}
