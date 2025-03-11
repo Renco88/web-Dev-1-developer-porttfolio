@@ -122,3 +122,34 @@ main {
 .about-info {
     text-align: center;
 }
+
+/* footer style */
+
+.footer {
+    display: flex;
+    background: rgb(255, 248, 243);
+    margin-top: 100px;
+    padding: 130px 200px;
+    gap: 100px;
+
+}
+
+.footer-column {
+    width: 50%;
+}
+
+.social-link {
+    display: flex;
+    gap: 25px;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+textarea {
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    display: block;
+    padding: 15px 30px;
+    margin-bottom: 20px;
+
+}
